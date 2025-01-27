@@ -10,12 +10,12 @@ from typing import Any
 from box.exceptions import BoxValueError
 
 @ensure_annotations
-def read_yaml(path_to_yaml: str) -> ConfigBox:
+def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """
     Reads a yaml file and returns the content as a dictionary
 
     Args:
-        path_to_yaml (str): path to yaml file
+        path_to_yaml (Path): path to yaml file
 
     Raises:
         ValueError: if yaml file is empty
@@ -49,12 +49,12 @@ def create_directories(path_to_directories: list, verbose=False):
             logger.info(f"created directory at: {path}")
 
 @ensure_annotations
-def save_json(path: str, data: dict):
+def save_json(path: Path, data: dict):
     """
     save json data
 
     Args:
-        path (str): path to save
+        path (Path): path to save
         data (dict): data to be saved
     """
     with open(path, "w") as f:
@@ -68,7 +68,7 @@ def load_json(path: Path) -> ConfigBox:
     load json files as python dictionary
 
     Args:
-        path (str): path to json file
+        path (Path): path to json file
 
     Returns:
         ConfigBox: ConfigBox type
