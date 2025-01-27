@@ -97,3 +97,62 @@ x==========x]
 [2025-01-27 12:15:23,933: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2025-01-27 12:33:47,699: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 12:33:47,703: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 12:33:47,708: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 12:34:27,929: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 12:34:27,931: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 12:34:27,938: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 12:34:27,997: INFO: 3279601978: Splitted data into training and test tests]
+[2025-01-27 12:34:27,999: INFO: 3279601978: (1199, 12)]
+[2025-01-27 12:34:28,001: INFO: 3279601978: (400, 12)]
+[2025-01-27 12:35:09,123: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 12:35:09,124: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 12:35:09,128: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 12:35:09,153: INFO: 1113262777: Splitted data into training and test tests]
+[2025-01-27 12:35:09,154: INFO: 1113262777: (1199, 12)]
+[2025-01-27 12:35:09,155: INFO: 1113262777: (400, 12)]
+[2025-01-27 12:46:28,523: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-27 12:46:28,536: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 12:46:28,537: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 12:46:28,542: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 12:46:28,547: INFO: data_ingestion: File already exists]
+[2025-01-27 12:46:28,553: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-27 12:46:28,553: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-27 12:46:28,558: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 12:46:28,560: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 12:46:28,566: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 12:46:28,617: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-27 12:46:28,618: INFO: main: >>>>>> stage Data Tranformation stage started <<<<<<]
+[2025-01-27 12:46:28,632: INFO: main: >>>>>> stage Data Tranformation stage completed <<<<<<
+
+x==========x]
+[2025-01-27 12:47:18,167: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-27 12:47:18,170: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 12:47:18,171: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 12:47:18,173: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 12:47:18,174: INFO: data_ingestion: File already exists]
+[2025-01-27 12:47:18,178: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-27 12:47:18,178: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-27 12:47:18,180: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 12:47:18,181: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 12:47:18,183: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 12:47:18,205: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-27 12:47:18,205: INFO: main: >>>>>> stage Data Tranformation stage started <<<<<<]
+[2025-01-27 12:47:18,209: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-01-27 12:47:18,210: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-27 12:47:18,213: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-27 12:47:18,238: INFO: data_transformation: Splitted data into training and test tests]
+[2025-01-27 12:47:18,238: INFO: data_transformation: (1199, 12)]
+[2025-01-27 12:47:18,240: INFO: data_transformation: (400, 12)]
+[2025-01-27 12:47:18,240: INFO: main: >>>>>> stage Data Tranformation stage completed <<<<<<
+
+x==========x]
