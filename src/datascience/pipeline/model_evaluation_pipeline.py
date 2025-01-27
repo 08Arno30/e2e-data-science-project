@@ -4,9 +4,9 @@ from src.datascience import logger
 
 import os
 
-os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/08Arno30/e2e-data-science-project.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"] = "08arno30"
-os.environ["MLFLOW_TRACKING_PASSWORD"] = "44250c973b81a7be832b6de2c4a5e36f47819d99"
+# os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/08Arno30/e2e-data-science-project.mlflow"
+# os.environ["MLFLOW_TRACKING_USERNAME"] = "08arno30"
+# os.environ["MLFLOW_TRACKING_PASSWORD"] = "44250c973b81a7be832b6de2c4a5e36f47819d99"
 
 STAGE_NAME = "Model Evaluation stage"
 
